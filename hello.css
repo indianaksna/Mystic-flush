@@ -1,0 +1,70 @@
+.game-body {
+	background-image: url('https://static.vecteezy.com/system/resources/previews/016/124/733/non_2x/poker-and-casino-playing-card-black-background-vector.jpg');
+	background-size: cover; 
+	font-family: monospace;
+	color: #fff;
+  }
+  
+  .game-container {
+	padding-top: 50px; 
+  }
+  
+  .game-rules {
+	padding: 40px; 
+	background: #f3f0f0de; 
+	color: #000000;
+	border-radius: 8px;
+	margin: 40px auto;
+	font-weight: bold; 
+	max-width: 800px;
+  }
+  
+  .game-start-btn {
+	color: white;
+	background-color: #318b07; 
+	padding: 10px 20px; 
+	font-size: 18px; 
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.3s; 
+  }
+  
+  .game-start-btn:hover {
+	background-color: #1cb324; 
+	transform: scale(1.05); 
+  }
+  
+  .game-board .card {
+	width: 160px; 
+	height: 240px; 
+	background-color: #f8f9fa;
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3em; 
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.3s; 
+  }
+  
+  .game-board .card:hover {
+	background-color: #e9ecef; 
+	transform: translateY(-10px); 
+  }
+  
+  .game-board .card.flipped {
+	background-color: #720101; 
+	color: white;
+  }
+  
+  @keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+  }
+  
+  .game-message {
+	animation: fadeIn 1s ease-in-out;
+  }
+  
